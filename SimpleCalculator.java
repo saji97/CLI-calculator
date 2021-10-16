@@ -18,7 +18,7 @@ public class SimpleCalculator {
         case '-':
             return left - right;
         case '*':
-            return left * right;     
+            return left * right;
        
         }
         throw new IllegalArgumentException("Unknown operator:" + op);
